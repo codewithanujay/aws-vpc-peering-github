@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#f8fafc"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#0f172a">AWS VPC Peering — Private EC2 Connectivity</text>
+  <rect x="55" y="105" width="470" height="465" rx="18" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+  <text x="290" y="145" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#075985">VPC A — 10.10.0.0/16</text>
+  <rect x="90" y="180" width="400" height="330" rx="12" fill="#f0f9ff" stroke="#38bdf8" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="290" y="212" text-anchor="middle" font-family="Arial" font-size="17" fill="#075985">Public subnet — 10.10.1.0/24</text>
+  <rect x="145" y="250" width="290" height="150" rx="12" fill="#ffffff" stroke="#0284c7" stroke-width="2"/>
+  <text x="290" y="285" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#0f172a">EC2 Server A</text>
+  <text x="290" y="318" text-anchor="middle" font-family="Arial" font-size="17" fill="#334155">Private IP: 10.10.1.147</text>
+  <text x="290" y="350" text-anchor="middle" font-family="Arial" font-size="15" fill="#334155">SSH client / test host</text>
+  <rect x="675" y="105" width="470" height="465" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+  <text x="910" y="145" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#166534">VPC B — 10.20.0.0/16</text>
+  <rect x="710" y="180" width="400" height="330" rx="12" fill="#f0fdf4" stroke="#4ade80" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="910" y="212" text-anchor="middle" font-family="Arial" font-size="17" fill="#166534">Private subnet — 10.20.2.0/24</text>
+  <rect x="765" y="250" width="290" height="150" rx="12" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+  <text x="910" y="285" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#0f172a">EC2 Server B</text>
+  <text x="910" y="318" text-anchor="middle" font-family="Arial" font-size="17" fill="#334155">Private IP: 10.20.2.71</text>
+  <text x="910" y="350" text-anchor="middle" font-family="Arial" font-size="15" fill="#334155">SSM + SSH target</text>
+  <path d="M 435 300 C 530 250, 640 250, 765 300" fill="none" stroke="#7c3aed" stroke-width="4"/>
+  <path d="M 750 289 L 765 300 L 749 309" fill="none" stroke="#7c3aed" stroke-width="4"/>
+  <path d="M 765 360 C 650 410, 540 410, 435 360" fill="none" stroke="#7c3aed" stroke-width="4" stroke-dasharray="9 6"/>
+  <path d="M 451 350 L 435 360 L 451 370" fill="none" stroke="#7c3aed" stroke-width="4"/>
+  <rect x="495" y="270" width="210" height="95" rx="12" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="600" y="300" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#5b21b6">VPC Peering</text>
+  <text x="600" y="326" text-anchor="middle" font-family="Arial" font-size="14" fill="#5b21b6">Private routes both ways</text>
+  <text x="600" y="348" text-anchor="middle" font-family="Arial" font-size="13" fill="#5b21b6">ICMP + TCP/22 tested</text>
+  <text x="600" y="615" text-anchor="middle" font-family="Arial" font-size="17" fill="#334155">Region: ap-south-1 (Mumbai) • Private IP communication verified</text>
+  <text x="600" y="645" text-anchor="middle" font-family="Arial" font-size="13" fill="#64748b">Illustrative architecture — not a live AWS resource map</text>
+</svg>

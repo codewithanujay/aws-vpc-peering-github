@@ -1,0 +1,16 @@
+# Credentials and private keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+ewb-server-b-key
+ewb-server-b-key.pub
+.aws/
+.env
+.env.*
+
+# Logs and local artifacts
+*.log
+*.out
+.DS_Store
+Thumbs.db
